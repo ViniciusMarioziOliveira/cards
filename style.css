@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    background-image: url(img/palco\ vct.jpg)
+}
+
+header {
+    color: whitesmoke;
+    height: 150px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .3px;
+}
+h1 {
+    font-family: val;
+    text-align: center;
+    font-size: 80px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+h2{
+    font-family: Lemon Milk;
+}
+
+a {
+    color: inherit; /* Herda a cor do texto do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+    outline: none; /* Remove o contorno ao focar */
+}
+
+main {
+    flex: 1;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 30px;
+    margin: 20px
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to bottom, aqua, red);
+    font-family: segoe ui;
+    font-size: 19px;
+}
+
+.card h2{
+    text-align: center;
+    font-family: anime;
+    font-size: 20px;
+}
+
+.card img {
+    width: 210px;
+    height: 210px;
+    margin-left: 7px;
+}
+
+.card .selecao {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+
+footer {
+    color: white;
+    height: 80px;
+    background-color: red;
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: Lemon Milk;
+}
