@@ -41,6 +41,10 @@ a {
     outline: none; /* Remove o contorno ao focar */
 }
 
+p{
+    font-size: 17px;
+}
+
 main {
     flex: 1;
     font-size: 20px;
